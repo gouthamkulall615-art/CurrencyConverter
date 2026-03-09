@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:linear-gradient(135deg,#f7e7c3,#f5d7a1);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* main card */
+.container{
+    background:white;
+    padding:30px 35px;
+    width:380px;
+    border-radius:14px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* title */
+.container .title{
+    font-size:1.8rem;
+    font-weight:700;
+    text-align:center;
+    color:#158642;
+    margin-bottom:20px;
+}
+
+/* form */
+.container form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+/* amount label */
+#enter-amount{
+    font-size:1rem;
+    font-weight:500;
+}
+
+/* input */
+form input{
+    width:100%;
+    font-size:1rem;
+    height:2.7rem;
+    border:1px solid #ddd;
+    padding-left:10px;
+    border-radius:6px;
+    outline:none;
+}
+
+form input:focus{
+    border-color:#158642;
+}
+
+/* currency dropdown area */
+.select-container{
+    display:flex;
+    justify-content:space-between;
+    gap:10px;
+}
+
+/* button */
+button{
+    margin-top:10px;
+    border:none;
+    padding:10px;
+    border-radius:8px;
+    background:#158642;
+    color:white;
+    font-size:1rem;
+    font-weight:500;
+    cursor:pointer;
+    transition:0.25s;
+}
+
+button:hover{
+    background:#0e5c2d;
+}
